@@ -1,0 +1,116 @@
+* {
+    font-family: Sen, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+  }
+  
+  header {
+    position: fixed;
+    display: flex;
+    width: 80%;
+    background-color: white;
+    border-radius: 0 0 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  header h1 {
+    margin: auto 0 auto 40px;
+    line-height: 90px;
+    color: darkred;
+    font-size: 50px;
+  }
+  
+  section {
+    margin: auto 0;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  section:first-of-type {
+    margin: auto 0 10px;
+  }
+  
+  section:last-of-type {
+    margin: 10px 0 auto;
+  }
+  
+  .guess-body {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto auto;
+  }
+  
+  .rgb-text {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+  }
+  
+  .rgb-text h2 {
+    margin: auto auto 20px;
+    color: darkred;
+    font-size: 30px;
+  }
+  
+  .rgb-text p {
+    margin: auto;
+    color: black;
+    font-size: 30px;
+  }
+  
+  .rgb-body {
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto auto;
+  }
+  
+  .ball {
+    height: 70px;
+    width: 70px;
+    margin: auto 30px auto 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+  
+  .ball:last-of-type {
+    margin-right: 0;
+  }
+  
+  .score-board {
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+  }
+  
+  #reset-game {
+    margin: auto auto auto 100px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid black;
+  }
